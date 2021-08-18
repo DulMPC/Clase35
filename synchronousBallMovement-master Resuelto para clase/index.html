@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <!--Estas dos etiquetas se deben copiar para que el codigo funcione-->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <!--Estas etiquetas son las que salen en la configuracion y se deben "comentar"-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!--<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>-->
+
+    <script>
+      // Your web app's Firebase configuration
+      //add here
+      // Initialize Firebase
+      // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD3DZyqrftDV_riGu4vgv9JF4iaLmjI6Ro",
+    authDomain: "juego-carreras-multijugador-m.firebaseapp.com",
+    databaseURL: "https://juego-carreras-multijugador-m-default-rtdb.firebaseio.com",
+    projectId: "juego-carreras-multijugador-m",
+    storageBucket: "juego-carreras-multijugador-m.appspot.com",
+    messagingSenderId: "269517477373",
+    appId: "1:269517477373:web:635ec9fa1af46a66fa7594"
+  };
+  // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
